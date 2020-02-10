@@ -3,7 +3,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
-    color:grey;
+    color:black;
 }
 
 .offset:before{
@@ -18,8 +18,8 @@ body {
     font-weight: 700;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6) !important;
+    color: #fffdd0;
+    background-color:black !important;
 }
 .navbar-brand img{
     height: 2rem;
@@ -28,12 +28,12 @@ body {
     padding-right: .7rem;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    color: #fffdd0;
     padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #1ebba3;
+    color: #FF334F;
 }
 
 /*--- Landing Page ---*/
@@ -48,7 +48,7 @@ body {
     top: 38%;
     z-index: 1;
     text-transform: uppercase;
-    color: white;
+    color: #fffdd0;
 }
 .caption h1 {
     font-size: 3.8rem;
@@ -87,14 +87,14 @@ body {
     font-size: 1.2rem;
     padding: .6rem 1.2rem;
     margin: 1rem;
-    color: white;
-    background-color: #1ebba3;
-    border-color: #1ebba3;
+    color: #fffdd0;
+    background-color: #FF334F;
+    border-color: #FF334F;
 }
 
 .btn-secondary:hover {
-    background-color: #189582;
-    border-color: #1ebba3;
+    background-color: #FF334F;
+    border-color: #FF334F;
 }
 
 /* Features Section */
@@ -115,12 +115,12 @@ h3.heading {
 .heading-underline{
     width: 3rem;
     height: .2rem;
-    background-color: #1ebba3;
+    background-color: #FF334F;
     margin: 0 auto 2rem;
 }
 
 .feature svg.svg-inline--fa {
-color: #1ebba3;
+color: #FF334F;
 }
 
 .feature h3 {
@@ -140,7 +140,7 @@ color: #1ebba3;
 }
 .dark {
     background-color: rgba(0, 0, 0, 0.75);
-    color: white;
+    color: #fffdd0;
     padding: 7rem 2rem;
 }
 .fixed-background h3 {
@@ -158,18 +158,18 @@ margin-top: 1.5rem;
 }
 
 .blockquote .svg-inline--fa {
-    color: #1ebba3;
+    color: #FF334F;
     margin: 1rem;
 }
 
 .clients-hr {
-    border-top: .5rem solid #1ebba3;
+    border-top: .5rem solid #FF334F;
 }
 
 /* Contact Section */
 footer {
-    background-color: #40474e;
-    color: white;
+    background-color: #FF334F;
+    color: black;
     padding: 2rem 0 2rem;
 }
 
@@ -179,7 +179,7 @@ footer img {
 }
 
 footer a {
-    color: white;
+    color: black;
 }
 
 footer svg.svg-inline--fa{
@@ -189,12 +189,12 @@ footer svg.svg-inline--fa{
 }
 
 footer svg.svg-inline--fa:hover {
-    color: #1ebba3 !important;
+    color: #FF334F !important;
 }
 
 hr.socket {
     width: 100%;
-    border-top: .2rem solid #666b71;
+    border-top: .2rem solid #FF334F;
     margin-top: .3rem;
 }
 
